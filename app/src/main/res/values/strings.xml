@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Shopping</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_remove">REMOVE</string>
+    <string name="addButton">ADD PRODUCT</string>
+    <string name="addButton_text">ADD PRODUCT</string>
+    <string name="removeButton_text_off">EDIT</string>
+    <string name="removeButton_text_on">REMOVE</string>
+
+</resources>
