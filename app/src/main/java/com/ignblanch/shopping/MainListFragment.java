@@ -70,7 +70,7 @@ public class MainListFragment extends Fragment {
         SharedPreferences.Editor editor = sharedPrefs.edit();
         editor.putStringSet("shopping", set);
         editor.commit();
-        Toast.makeText(context, "The data has been saved", Toast.LENGTH_LONG).show();
+        //Toast.makeText(context, "The data has been saved", Toast.LENGTH_LONG).show();
     }
 
     //get saved data from SharedPreferences
@@ -83,7 +83,7 @@ public class MainListFragment extends Fragment {
         }else{
             Lists.getItems().clear();
             Lists.getItems().addAll(set);// load new data from prefs
-            Toast.makeText(context, "Data recovered", Toast.LENGTH_LONG); // confirm
+            //Toast.makeText(context, "Data recovered", Toast.LENGTH_LONG); // confirm
         }
     }
 
